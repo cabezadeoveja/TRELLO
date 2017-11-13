@@ -74,6 +74,9 @@ input {
 	padding: 0px 5px;
 }
 
+.brand a:hover {
+    opacity: 0.4;
+}
 
 .icon{
 	float: right;
@@ -122,6 +125,7 @@ li {
 }
 
 h3, h4{
+	display: inline-block;
 	float: left;
 }
 .icon-submenu{
@@ -134,7 +138,16 @@ h3, h4{
 	padding-left: 20px;
 }
 
-button{
+
+
+
+//JS
+
+#container {
+    display: inline-block;
+}
+
+#label{
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #026AA7;
@@ -142,11 +155,154 @@ button{
 	border: none;
 	height: 30px;
 	width: 260px;
-	padding: 5px 8px;
+	padding: 8px 8px;
 	font-size: 14px;
 	text-align: left;
 	margin: 0 8px;
+	border-radius: 3px;
+}
+
+#containerTwo {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #e1e3e6;
+    width: 260px;
+    padding: 8px 8px;
+    margin: 0 8px;
+    display: inline-block;
+}
+
+#inputA {
+	box-sizing: border-box;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+    padding: 7px;
+    width: 100%;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 3px;   
+}
+
+#guardarBtn {
+	box-sizing: border-box;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: white;
+	padding: 8px 13px;
+    margin: 8px 0;
+    background-color: #24ba3f;
+    border: none;
+    border-radius: 3px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.fa-times {  /*icono x*/
+	float: right;
+    font-size: 30px;
+    color: #999;;
+    cursor: pointer;
+    padding: 8px 10px;
+    vertical-align: middle;
+}
+
+#cardContainer {
+	box-sizing: border-box;
+	display: inline-block;
+    width: 260px;
+    background: #e1e3e6;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+#labelCard, p.parrafo{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 8px;
+    padding: 8px 8px;
+}
+
+.fa-ellipsis-h{
+	float: right;
+    font-size: 30px;
+    vertical-align: middle;
+    color: #999;;
+    cursor: pointer;
+    margin: 0 8px;
+    padding: 8px 8px;
+}
+
+#addCard{
+    display: block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+    font-size: 14px;
+    padding: 8px 8px;
+
+}
+
+#addCard:hover{
+	background-color: #cacaca;
+	text-decoration: underline;
+}
+
+#textarea{
+	box-sizing: border-box;
+	display: block;
+    width: 94%;
+    background: #ffffff;
+    margin: 8px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    resize:none;
+    border-radius: 3px;
 }
 
 
+#guardarBtnTex{
+	clear: left;
+	box-sizing: border-box;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: white;
+	padding: 8px 13px;
+    margin: 8px;
+    background-color: #24ba3f;
+    border: none;
+    border-radius: 3px;
+    font-weight: bolder;
+    cursor: pointer;
+}
 
+#labelCardTextarea{
+    display: block;
+    outline: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0 8px;
+}
+
+p#parrafoTextarea{
+	box-sizing: border-box;
+	display: block;
+    background: #ffffff;
+    padding: 5px;
+    outline: none;
+    border: none;
+    resize:none;
+    border-radius: 3px;
+    margin: 1px 0px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+    
+    
